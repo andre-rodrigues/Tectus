@@ -1,6 +1,10 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
+gem 'sass' 
+gem 'haml'
+gem 'compass'
+gem 'jquery-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
