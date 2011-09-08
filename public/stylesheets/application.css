@@ -64,12 +64,14 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 1, ../../app/stylesheets/_home.sass */
-#home_page {
-  width: 800px;
-  height: 500px;
-  background-color: gray;
-  margin: auto;
+/* line 5, ../../app/stylesheets/_home.sass */
+#home_page .ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
+  background-color: silver;
+  opacity: 0.6;
+  font-family: Arial;
+  font-size: 10pt;
+  font-weight: bold;
+  color: black;
 }
 
 /* line 10, ../../app/stylesheets/application.sass */
