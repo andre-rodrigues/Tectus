@@ -64,34 +64,6 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 2, ../../app/stylesheets/_home.sass */
-#home_page #header {
-  width: 840px;
-  height: 90px;
-}
-/* line 5, ../../app/stylesheets/_home.sass */
-#home_page #header #logo {
-  float: left;
-  margin-top: 25px;
-}
-/* line 8, ../../app/stylesheets/_home.sass */
-#home_page #header #menu {
-  float: right;
-  font-size: 11pt;
-  font-family: Arial;
-  margin-top: 40px;
-}
-/* line 13, ../../app/stylesheets/_home.sass */
-#home_page #header #menu a {
-  color: #8796b5;
-  margin-left: 25px;
-  text-decoration: none;
-}
-/* line 17, ../../app/stylesheets/_home.sass */
-#home_page #header #menu a:hover {
-  color: white;
-}
-
 /* line 10, ../../app/stylesheets/application.sass */
 body {
   text-align: center;
@@ -99,15 +71,63 @@ body {
 }
 /* line 13, ../../app/stylesheets/application.sass */
 body #header {
-  width: 900px;
+  width: 840px;
+  height: 90px;
+  margin: auto;
 }
-/* line 15, ../../app/stylesheets/application.sass */
+/* line 17, ../../app/stylesheets/application.sass */
+body #header #logo {
+  float: left;
+  margin-top: 25px;
+}
+/* line 20, ../../app/stylesheets/application.sass */
+body #header #menu {
+  float: right;
+  font-size: 11pt;
+  font-family: Arial;
+  margin-top: 40px;
+}
+/* line 25, ../../app/stylesheets/application.sass */
+body #header #menu a {
+  color: #8796b5;
+  margin-left: 25px;
+  text-decoration: none;
+}
+/* line 29, ../../app/stylesheets/application.sass */
+body #header #menu a:hover {
+  color: white;
+}
+/* line 31, ../../app/stylesheets/application.sass */
 body #content {
   margin: auto;
-  width: 900px;
+  width: 840px;
   background-color: #172140;
 }
-/* line 19, ../../app/stylesheets/application.sass */
+/* line 35, ../../app/stylesheets/application.sass */
 body #footer {
-  width: 900px;
+  width: 840px;
+  height: 90px;
+  margin: auto;
+  font-family: Arial;
+}
+/* line 40, ../../app/stylesheets/application.sass */
+body #footer a {
+  color: #8796b5;
+  text-decoration: none;
+}
+/* line 43, ../../app/stylesheets/application.sass */
+body #footer a:hover {
+  color: white;
+}
+/* line 45, ../../app/stylesheets/application.sass */
+body #footer #contact {
+  float: right;
+  font-size: 11pt;
+  margin-top: 40px;
+}
+/* line 49, ../../app/stylesheets/application.sass */
+body #footer #fatorp {
+  float: left;
+  font-size: 9pt;
+  margin-top: 41px;
 }
