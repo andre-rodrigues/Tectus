@@ -64,31 +64,22 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 5, ../../app/stylesheets/_home.sass */
-#home_page .ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
-  background-color: silver;
-  opacity: 0.6;
-  font-family: Arial;
-  font-size: 10pt;
-  font-weight: bold;
-  color: black;
-}
-
 /* line 10, ../../app/stylesheets/application.sass */
 body {
   text-align: center;
+  background-color: #172140;
 }
-/* line 12, ../../app/stylesheets/application.sass */
+/* line 13, ../../app/stylesheets/application.sass */
 body #header {
   width: 900px;
 }
-/* line 14, ../../app/stylesheets/application.sass */
+/* line 15, ../../app/stylesheets/application.sass */
 body #content {
   margin: auto;
   width: 900px;
-  background-color: silver;
+  background-color: #172140;
 }
-/* line 18, ../../app/stylesheets/application.sass */
+/* line 19, ../../app/stylesheets/application.sass */
 body #footer {
   width: 900px;
 }
