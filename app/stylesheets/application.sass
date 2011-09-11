@@ -6,6 +6,7 @@
 
 
 @import "home"
+@import "contact"
 
 body
   text-align: center
@@ -20,18 +21,51 @@ body
     #menu
       float: right
       font-size: 11pt
-      font-family: Arial
       margin-top: 40px
-      a
-        color: #8796b5
+      #office
+        float: left
+        width: 67px
+        height: 11px
+        background: url(/images/escritorio.png)
+      #office:hover
+        background-image: url(/images/escritorio_over.png)
+      #projects
+        float: left
         margin-left: 25px
-        text-decoration: none
-      a:hover
-        color: white
+        width: 57px
+        height: 14px
+        background-image: url(/images/projetos.png)
+      #projects:hover
+        background-image: url(/images/projetos_over.png)
+      #buildings
+        float: left
+        width: 37px
+        height: 11px
+        margin-left: 25px
+        background-image: url(/images/obras.png)
+      #buildings:hover
+        background-image: url(/images/obras_over.png)
+      #researchs
+        float: left
+        width: 53px
+        height: 11px
+        margin-left: 25px
+        background-image: url(/images/estudos.png)
+      #researchs:hover
+        background-image: url(/images/estudos_over.png)
+      #contact
+        float: left
+        width: 52px
+        height: 9px
+        margin: 2px 0px 0px 25px
+        background-image: url(/images/contato.png)
+      #contact:hover
+        background-image: url(/images/contato_over.png)
   #content
     margin: auto
     width: 840px  
     background-color: #172140
+    +clearfix
   #footer
     width: 840px
     height: 90px

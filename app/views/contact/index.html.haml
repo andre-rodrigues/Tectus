@@ -1,0 +1,36 @@
+
+= form_for :contact  do |f|
+
+  #left
+    #address
+      %p (19) 3295.5372
+      %p r. rafael andrade duarte, 127
+      %p nova campinas - campinas - sp
+  #right
+    %table
+      %tr
+        %td
+          .field_group
+            = f.label :nome, "nome"
+            = f.text_field :nome, :class => 'text_field'
+        %td
+          .field_group
+            = f.label :fone, "fone"
+            = f.text_field :fone, :class => 'text_field'
+      %tr
+        %td
+          .field_group
+            = f.label :cidade, "cidade"
+            = f.text_field :cidade, :class => 'text_field'
+        %td
+          .field_group
+            = f.label :email, "e-mail"
+            = f.text_field :email, :class => 'text_field'
+      %tr
+        %td{:colspan => 2}
+          .field_group
+            = f.label :mensagem, "mensagem"
+            = f.text_area :mensagem, :class => 'text_area'
+
+
+  = f.submit "", :class => 'button'

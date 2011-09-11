@@ -67,11 +67,11 @@
     #logo
       = image_tag ("logotipo.png")
     #menu
-      = link_to "escritório", "#"
-      = link_to "projetos", "#"
-      = link_to "obras", "#"
-      = link_to "estudos", "#"
-      = link_to "contato", "#"
+      = link_to "", "#", :id => 'office'
+      = link_to "", "#", :id => 'projects'
+      = link_to "", "#", :id => 'buildings'
+      = link_to "", "#", :id => 'researchs'
+      = link_to "", "#", :id => 'contact'
 
   #content
     %div{:id => "#{controller.controller_name}_page"}
@@ -79,7 +79,7 @@
   
   #footer
     #contact
-      = mail_to 'contato@tectus.arq.br', 'contato@tectus.arq.br'
+      = mail_to 'contato@tectus.arq.br', image_tag("email.png")
     #fatorp
       = link_to "Fator P", 'http://www.fatorp.com/'
         
