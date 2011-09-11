@@ -2,7 +2,7 @@ Tectus::Application.routes.draw do
 
   root :to => "home#index"
   
-  resources :contact, :path => 'contato'
+  resources :contact, :path => "contato", :only => [:index, :create]
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
