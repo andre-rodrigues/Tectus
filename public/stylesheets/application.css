@@ -68,7 +68,7 @@ footer, header, hgroup, menu, nav, section {
 #contact_page {
   overflow: hidden;
   *zoom: 1;
-  margin-top: 90px;
+  margin-top: 80px;
   font-family: Arial;
 }
 /* line 5, ../../app/stylesheets/_contact.sass */
@@ -180,6 +180,13 @@ body #header #menu #office:hover {
   background-image: url(/images/escritorio_over.png);
 }
 /* line 32, ../../app/stylesheets/application.sass */
+body #header #menu #office_current {
+  float: left;
+  width: 67px;
+  height: 11px;
+  background-image: url(/images/escritorio_over.png);
+}
+/* line 37, ../../app/stylesheets/application.sass */
 body #header #menu #projects {
   float: left;
   margin-left: 25px;
@@ -187,11 +194,19 @@ body #header #menu #projects {
   height: 14px;
   background-image: url(/images/projetos.png);
 }
-/* line 38, ../../app/stylesheets/application.sass */
+/* line 43, ../../app/stylesheets/application.sass */
 body #header #menu #projects:hover {
   background-image: url(/images/projetos_over.png);
 }
-/* line 40, ../../app/stylesheets/application.sass */
+/* line 45, ../../app/stylesheets/application.sass */
+body #header #menu #projects_current {
+  float: left;
+  margin-left: 25px;
+  width: 57px;
+  height: 14px;
+  background-image: url(/images/projetos_over.png);
+}
+/* line 51, ../../app/stylesheets/application.sass */
 body #header #menu #buildings {
   float: left;
   width: 37px;
@@ -199,11 +214,19 @@ body #header #menu #buildings {
   margin-left: 25px;
   background-image: url(/images/obras.png);
 }
-/* line 46, ../../app/stylesheets/application.sass */
+/* line 57, ../../app/stylesheets/application.sass */
 body #header #menu #buildings:hover {
   background-image: url(/images/obras_over.png);
 }
-/* line 48, ../../app/stylesheets/application.sass */
+/* line 59, ../../app/stylesheets/application.sass */
+body #header #menu #buildings_current {
+  float: left;
+  width: 37px;
+  height: 11px;
+  margin-left: 25px;
+  background-image: url(/images/obras_over.png);
+}
+/* line 65, ../../app/stylesheets/application.sass */
 body #header #menu #researchs {
   float: left;
   width: 53px;
@@ -211,11 +234,19 @@ body #header #menu #researchs {
   margin-left: 25px;
   background-image: url(/images/estudos.png);
 }
-/* line 54, ../../app/stylesheets/application.sass */
+/* line 71, ../../app/stylesheets/application.sass */
 body #header #menu #researchs:hover {
   background-image: url(/images/estudos_over.png);
 }
-/* line 56, ../../app/stylesheets/application.sass */
+/* line 73, ../../app/stylesheets/application.sass */
+body #header #menu #researchs_current {
+  float: left;
+  width: 53px;
+  height: 11px;
+  margin-left: 25px;
+  background-image: url(/images/estudos_over.png);
+}
+/* line 79, ../../app/stylesheets/application.sass */
 body #header #menu #contact {
   float: left;
   width: 52px;
@@ -223,11 +254,19 @@ body #header #menu #contact {
   margin: 2px 0px 0px 25px;
   background-image: url(/images/contato.png);
 }
-/* line 62, ../../app/stylesheets/application.sass */
+/* line 85, ../../app/stylesheets/application.sass */
 body #header #menu #contact:hover {
   background-image: url(/images/contato_over.png);
 }
-/* line 64, ../../app/stylesheets/application.sass */
+/* line 87, ../../app/stylesheets/application.sass */
+body #header #menu #contact_current {
+  float: left;
+  width: 52px;
+  height: 9px;
+  margin: 2px 0px 0px 25px;
+  background-image: url(/images/contato_over.png);
+}
+/* line 93, ../../app/stylesheets/application.sass */
 body #content {
   margin: auto;
   width: 840px;
@@ -235,29 +274,29 @@ body #content {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 69, ../../app/stylesheets/application.sass */
+/* line 98, ../../app/stylesheets/application.sass */
 body #footer {
   width: 840px;
   height: 90px;
   margin: auto;
   font-family: Arial;
 }
-/* line 74, ../../app/stylesheets/application.sass */
+/* line 103, ../../app/stylesheets/application.sass */
 body #footer a {
   color: #8796b5;
   text-decoration: none;
 }
-/* line 77, ../../app/stylesheets/application.sass */
+/* line 106, ../../app/stylesheets/application.sass */
 body #footer a:hover {
   color: white;
 }
-/* line 79, ../../app/stylesheets/application.sass */
+/* line 108, ../../app/stylesheets/application.sass */
 body #footer #contact {
   float: right;
   font-size: 11pt;
   margin-top: 40px;
 }
-/* line 83, ../../app/stylesheets/application.sass */
+/* line 112, ../../app/stylesheets/application.sass */
 body #footer #fatorp {
   float: left;
   font-size: 9pt;

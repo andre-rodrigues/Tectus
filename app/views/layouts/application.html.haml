@@ -67,11 +67,11 @@
     #logo
       = image_tag ("logotipo.png")
     #menu
-      = link_to "", "#", :id => 'office'
-      = link_to "", "#", :id => 'projects'
-      = link_to "", "#", :id => 'buildings'
-      = link_to "", "#", :id => 'researchs'
-      = link_to "", "#", :id => 'contact'
+      = link_to "", "#", :id => controller.controller_name == "office" ? "office_current" : "office"
+      = link_to "", "#", :id => controller.controller_name == "projects" ? "projects_current" : "projects"
+      = link_to "", "#", :id => controller.controller_name == "buildings" ? "buildings_current" : "buildings"
+      = link_to "", "#", :id => controller.controller_name == "researchs" ? "researchs_current" : "researchs"
+      = link_to "", contact_index_path, :id => controller.controller_name == "contact" ? "contact_current" : "contact"
 
   #content
     %div{:id => "#{controller.controller_name}_page"}
