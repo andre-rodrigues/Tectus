@@ -1,4 +1,3 @@
-
 = form_for :contact  do |f|
 
   #left
@@ -6,6 +5,7 @@
       %p (19) 3295.5372
       %p r. rafael andrade duarte, 127
       %p nova campinas - campinas - sp
+      
   #right
     %table
       %tr
@@ -31,6 +31,5 @@
           .field_group
             = f.label :message, "mensagem"
             = f.text_area :message, :class => 'text_area'
-
 
   = f.submit "", :class => 'button'

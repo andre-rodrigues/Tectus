@@ -6,14 +6,14 @@
 
 <div id="message_content" style="color: #373435; font-weight: bold">
   <h2>Dados do usuário:<h2>
-  <p style="margin: 2px 0px 0px 10px; font-weight: normal; font-size: 10pt">
-    Nome: <%= @message[:name] %><br/>
-    Cidade: <%= @message[:city] %>
-    Telefone: <%= @message[:phone] %><br/>
-    e-mail: <%= @message[:email] %></p>
+  <p style="margin: 2px 0px 0px 10px; font-weight: normal; font-size: 10pt;">
+    <span style="font-weight: bold">  Nome:     </span> <%= @message[:name] %><br/>
+    <span style="font-weight: bold">  Cidade:   </span> <%= @message[:city] %><br/>
+    <span style="font-weight: bold">  Telefone: </span> <%= @message[:phone] %><br/>
+    <span style="font-weight: bold">  E-mail:   </span> <%= @message[:email] %></p>
 
   <h2>Mensagem:</h2>
-    <p><%= @message[:message] %></p>
+    <p><%= simple_format(@message[:message]) %></p>
 
 </div>
 

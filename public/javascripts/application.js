@@ -1,6 +1,10 @@
 // Place your application-specific JavaScript functions and classes here
 // This file is automatically included by javascript_include_tag :defaults
 
+
+
+//--  GALLERY  ----------------------------------------------------------------------------------------------
+
 var galleries = $('.ad-gallery').adGallery({
   loader_image: 'loader.gif',
   width: 600, // Width of the image, set to false and it will read the CSS width

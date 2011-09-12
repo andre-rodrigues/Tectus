@@ -1,0 +1,8 @@
+<% if @error_message %>
+  alert("uahsa");
+<% else %>
+  alert('Sua mensagem foi enviada com sucesso.');
+  $('input[type=text]').attr('value', '');
+  $('textarea').val('');
+<% end %>
+
