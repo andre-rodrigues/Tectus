@@ -1,9 +1,14 @@
 Tectus::Application.routes.draw do
 
-  root :to => "home#index"
+  root :to => "projects#index"
+  
+  match "projetos" => "projects#index", :as => "projects"
+  match "obras" => "buildings#index", :as => "buildings"
+  match "estudos" => "researches#index", :as => "researches"
+  
+  
   
   resources :contact, :path => "contato", :only => [:index, :create]
-
   
   namespace :admin do
     root :to => "galleries#index"

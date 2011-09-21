@@ -1,0 +1,8 @@
+.ad-gallery
+  .ad-image-wrapper
+  .ad-nav
+    .ad-thumbs
+      %ul.ad-thumb-list
+        - @research.images.each do |image|
+          %li
+            = link_to image_tag(image.attachment.url(:admin_thumb), :title => image.attachment_title, :alt => image.description), image.attachment.url(:original)

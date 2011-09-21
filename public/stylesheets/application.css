@@ -212,7 +212,7 @@ footer, header, hgroup, menu, nav, section {
   background-image: url(/images/obras_over.png);
 }
 /* line 45, ../../app/stylesheets/_menu.sass */
-#menu #researchs {
+#menu #researches {
   float: left;
   width: 53px;
   height: 11px;
@@ -220,11 +220,11 @@ footer, header, hgroup, menu, nav, section {
   background-image: url(/images/estudos.png);
 }
 /* line 51, ../../app/stylesheets/_menu.sass */
-#menu #researchs:hover {
+#menu #researches:hover {
   background-image: url(/images/estudos_over.png);
 }
 /* line 53, ../../app/stylesheets/_menu.sass */
-#menu #researchs_current {
+#menu #researches_current {
   float: left;
   width: 53px;
   height: 11px;
