@@ -44,7 +44,7 @@ $(document).ready(function(){
 
   // FANCYBOX
   $('.expand_image').fancybox({
-    'titleShow':  false,
+    'titleShow':  true,
     'cyclic':     true
   });
 

@@ -200,13 +200,11 @@
 
     models:
       gallery: 'Galeria'
-      gallery_image: 'Imagem'
+      gallery_image: 'Imagen'
       # Admin Scaffold's references for models. Do not erase.
     attributes:
       gallery:
         plural: 'Galerias'
         gender: 'a'
         name: 'Nome'
-      gallery_image:
-        plural: 'Imagens'
       # Admin Scaffold's references for attributes. Do not erase.

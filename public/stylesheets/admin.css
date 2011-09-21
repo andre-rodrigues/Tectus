@@ -330,38 +330,38 @@ table {
 th {
   vertical-align: top;
   width: 100px;
-  padding-top: 7px;
 }
 
-/* line 176, ../../app/stylesheets/admin.sass */
+/* line 175, ../../app/stylesheets/admin.sass */
 td {
   padding-bottom: 15px;
 }
 
-/* line 178, ../../app/stylesheets/admin.sass */
+/* line 177, ../../app/stylesheets/admin.sass */
 .tooltip {
   margin-top: 3px;
   color: #0a1d38;
   font-size: 15px;
 }
 
-/* line 182, ../../app/stylesheets/admin.sass */
+/* line 181, ../../app/stylesheets/admin.sass */
 #nested_attributes_container {
   width: 500px;
 }
-/* line 184, ../../app/stylesheets/admin.sass */
+/* line 183, ../../app/stylesheets/admin.sass */
 #nested_attributes_container .link {
   display: block;
 }
-/* line 186, ../../app/stylesheets/admin.sass */
+/* line 185, ../../app/stylesheets/admin.sass */
 #nested_attributes_container #edit_image_subtitle {
   display: none;
   margin-bottom: 10px;
 }
 
-/* line 189, ../../app/stylesheets/admin.sass */
+/* line 188, ../../app/stylesheets/admin.sass */
 .fields {
   margin-bottom: 5px;
+  width: 600px;
 }
 
 /* line 191, ../../app/stylesheets/admin.sass */
@@ -401,23 +401,36 @@ td {
 
 /* line 212, ../../app/stylesheets/admin.sass */
 label {
-  margin-right: 20px;
+  float: left;
+  margin: 8px 20px 0px 0px;
   color: #222222;
   font-size: 15px;
 }
 
-/* line 217, ../../app/stylesheets/admin.sass */
+/* line 218, ../../app/stylesheets/admin.sass */
+.label_gallery_name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* line 222, ../../app/stylesheets/admin.sass */
+.remove_nested_fields {
+  float: right;
+  margin-top: 8px;
+}
+
+/* line 226, ../../app/stylesheets/admin.sass */
 .text_field, textarea, .file_field, select {
   color: #333333;
   font-size: 16px;
 }
 
-/* line 221, ../../app/stylesheets/admin.sass */
+/* line 230, ../../app/stylesheets/admin.sass */
 .text_field, textarea, .file_field {
   width: 400px;
 }
 
-/* line 224, ../../app/stylesheets/admin.sass */
+/* line 233, ../../app/stylesheets/admin.sass */
 .text_field, textarea, select {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -431,21 +444,21 @@ label {
   background: url('/images/admin/field-background.png?1316560596') repeat-x #f8f8f8;
 }
 
-/* line 231, ../../app/stylesheets/admin.sass */
+/* line 240, ../../app/stylesheets/admin.sass */
 textarea {
   font-family: arial, helvetica, sans-serif;
-  width: 600px;
-  height: 200px;
+  width: 590px;
+  height: 100px;
   font-size: 13px;
 }
 
-/* line 237, ../../app/stylesheets/admin.sass */
+/* line 246, ../../app/stylesheets/admin.sass */
 .file_field {
-  margin-bottom: 5px;
+  margin: 5px 0px;
   background-color: #f8f8f8;
 }
 
-/* line 241, ../../app/stylesheets/admin.sass */
+/* line 250, ../../app/stylesheets/admin.sass */
 .button {
   overflow: hidden;
   *zoom: 1;
@@ -464,11 +477,11 @@ textarea {
   font-size: 13px;
   cursor: pointer;
 }
-/* line 254, ../../app/stylesheets/admin.sass */
+/* line 263, ../../app/stylesheets/admin.sass */
 .button:hover {
   background-position: 0 -32px;
 }
-/* line 256, ../../app/stylesheets/admin.sass */
+/* line 265, ../../app/stylesheets/admin.sass */
 .button:active {
   background-position: 0 -64px;
 }

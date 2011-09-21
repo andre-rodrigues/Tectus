@@ -13,10 +13,6 @@
               = link_to edit_admin_gallery_path(gallery), :class => 'link' do
                 = image_tag('admin/document--pencil.png')
                 Editar
-            %li
-              = link_to [:admin, gallery], :confirm => "Você tem certeza que deseja excluir est#{t('activerecord.attributes.gallery.gender') == 'o' ? 'e' : 'a'} #{t('activerecord.models.gallery')}?", :method => :delete, :class => 'link', :title => 'Excluir' do
-                = image_tag('admin/cross.png')
-                Excluir
 
       %li= will_paginate @gallery
 
