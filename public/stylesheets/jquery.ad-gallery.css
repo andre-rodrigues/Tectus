@@ -30,7 +30,7 @@
       display: block;
       z-index: 100;
     }
-    .ad-gallery .ad-image-wrapper .ad-prev {
+    .ad-gallery .ad-image-wrapper .ad-prev {s
       position: absolute;
       left: 0;
       top: 0;
@@ -85,6 +85,7 @@
         opacity: 0.7;
         font-family: Arial;
         font-size: 10pt;
+        filter: alpha(opacity=50);
       }
       * html .ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
         background: none;

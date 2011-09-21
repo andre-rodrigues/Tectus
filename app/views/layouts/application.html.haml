@@ -4,13 +4,14 @@
   %title 
     = "Tectus#{' | ' + @page_title unless @page_title.blank?}"
     
-  = stylesheet_link_tag :all
+  = stylesheet_link_tag 'jquery.ad-gallery.css',
+                        'application.css'
   
   = javascript_include_tag :defaults
   
   = javascript_include_tag 'jquery-1.6.2.min.js',
-                           'jquery.ad-gallery.js',
-                           'jquery.min.js'
+                           'jquery.min.js',
+                           'jquery.ad-gallery.js'
   
   = csrf_meta_tag
   
@@ -68,7 +69,7 @@
 %body
   #header
     #logo
-      = image_tag ("logotipo.png")
+      = link_to image_tag("logotipo.png"), root_path
     #menu
       = link_to "", "#", :id => controller.controller_name == "office" ? "office_current" : "office"
       = link_to "", "#", :id => controller.controller_name == "projects" ? "projects_current" : "projects"

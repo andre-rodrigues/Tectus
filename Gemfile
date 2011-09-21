@@ -5,6 +5,13 @@ gem 'sass'
 gem 'haml'
 gem 'compass'
 gem 'jquery-rails'
+gem 'friendly_id'
+gem 'acts_as_list'
+gem 'simple_form'
+gem 'will_paginate'
+gem 'aws-s3'
+gem 'paperclip'
+gem 'inherited_resources'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

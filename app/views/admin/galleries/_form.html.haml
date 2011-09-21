@@ -1,0 +1,36 @@
+= link_to '<< Voltar', admin_galleries_path, :id => "top_link", :class => "link"
+
+#form
+  = nested_form_for [:admin, @gallery], :html => { :multipart => true } do |form|
+    - if @gallery.errors.any?
+      #error_explanation
+        %h2= "Est" + (t('activerecord.attributes.gallery.gender') == 'o' ? 'e ' : 'a ') + t('activerecord.models.gallery').downcase + " não pôde ser salv#{t('activerecord.attributes.gallery.gender')}."
+        %p Corrija os os seguintes erros:
+        %ul
+          - @gallery.errors.full_messages.each do |msg|
+            %li= msg
+
+    %table
+      %tr
+        %th= form.label :name, t('activerecord.attributes.gallery.name')
+        %td= form.text_field :name, :class => 'text_field'
+
+      %tr
+        %th= form.label :images, t('activerecord.models.gallery_image').pluralize
+        %td
+          #nested_attributes_container
+            = form.fields_for :images do |image_form|
+              - if image_form.object.new_record?
+                = image_form.file_field :attachment, :class => 'file_field'
+                = image_form.link_to_remove (image_tag "admin/delete.png")
+              - else
+                .thumb
+                  = link_to image_tag( image_form.object.url(:admin_thumb), :width => 94, :height => 71 ), image_form.object.url, :class => 'expand_image', :rel => 'gallery'
+                  = link_to image_tag('admin/cross.png'), admin_gallery_image_path(@gallery, image_form.object.id), :confirm => 'Você tem certeza que deseja excluir esta imagem?', :method => :delete, :class => 'cross', :title => 'Excluir Imagem'
+
+          .clear
+          = form.link_to_add :images, "Adicionar #{t('activerecord.models.gallery_image')}"
+
+      %tr
+        %td(colspan=2)= form.submit controller.action_name == 'new' ? 'Inserir' : 'Atualizar', :class => 'button'
+
