@@ -2,6 +2,16 @@
 // This file is automatically included by javascript_include_tag :defaults
 
 
+$(document).ready(function(){
+  $('.mail_form').live('submit', function(){
+    $.post(this.action, $(this).serialize(), function(data){
+      eval(data);
+    }, 'html');
+    return false;
+  });
+  
+});
+
 
 //--  GALLERY  ----------------------------------------------------------------------------------------------
 
@@ -83,3 +93,6 @@ some_img.data('ad-desc', 'This is my description!');
 
 // Change effect on the fly
 galleries[0].settings.effect = 'fade';
+
+
+
