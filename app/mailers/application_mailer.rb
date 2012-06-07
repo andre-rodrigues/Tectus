@@ -3,7 +3,7 @@ class ApplicationMailer < ActionMailer::Base
   
   def contact_message(message)
     @message = message
-    mail(:to => "andremartins_r@hotmail.com", :subject => "Mensagem de: #{message[:name]}")
+    mail(:to => "a.andremr@gmail.com", :subject => "Mensagem de: #{message[:name]}")
   end
   
 end
