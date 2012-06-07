@@ -37,6 +37,7 @@
               - else
                 .thumb
                   = link_to image_tag( image_form.object.url(:admin_thumb), :width => 94, :height => 61, :title => image_form.object.attachment_title ), image_form.object.url, :class => 'expand_image', :rel => 'gallery'
+                  = link_to image_tag('admin/document--pencil.png'), edit_admin_gallery_image_path(@gallery, image_form.object.id), :class => 'edit_subtitle'
                   = link_to image_tag('admin/cross.png'), admin_gallery_image_path(@gallery, image_form.object.id), :confirm => 'Você tem certeza que deseja excluir esta imagem?', :method => :delete, :class => 'cross', :title => 'Excluir Imagem'
           .clear
           = form.link_to_add :images, "Adicionar #{t('activerecord.models.gallery_image')}"

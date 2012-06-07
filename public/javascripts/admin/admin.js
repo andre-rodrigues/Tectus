@@ -27,10 +27,14 @@ $(document).ready(function(){
     function(){
       $(this).children('a').children('img').fadeTo('fast', 1.0);
       $(this).children('a.cross').show();
+      $(this).children('a').children('img').fadeTo('fast', 1.0);
+      $(this).children('a.edit_subtitle').show();
     },
     function(){
       $(this).children('a').children('img').fadeTo('fast', 0.8);
       $(this).children('a.cross').hide();
+      $(this).children('a').children('img').fadeTo('fast', 1.0);
+      $(this).children('a.edit_subtitle').hide();
     }
   );
 

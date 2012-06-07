@@ -1,4 +1,4 @@
-/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p180@global/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p290@tectus/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p180@global/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p290@tectus/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p180@global/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p290@tectus/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p180@global/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290@tectus/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p180@global/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p290@tectus/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p180@global/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p290@tectus/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p180@global/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p290@tectus/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p180@global/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p290@tectus/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 115, ../../../../.rvm/gems/ruby-1.9.2-p180@global/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 115, ../../../../.rvm/gems/ruby-1.9.2-p290@tectus/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -334,54 +334,55 @@ th {
 
 /* line 175, ../../app/stylesheets/admin.sass */
 td {
+  vertical-align: top;
   padding-bottom: 15px;
 }
 
-/* line 177, ../../app/stylesheets/admin.sass */
+/* line 178, ../../app/stylesheets/admin.sass */
 .tooltip {
   margin-top: 3px;
   color: #0a1d38;
   font-size: 15px;
 }
 
-/* line 181, ../../app/stylesheets/admin.sass */
+/* line 182, ../../app/stylesheets/admin.sass */
 #nested_attributes_container {
   width: 500px;
 }
-/* line 183, ../../app/stylesheets/admin.sass */
+/* line 184, ../../app/stylesheets/admin.sass */
 #nested_attributes_container .link {
   display: block;
 }
-/* line 185, ../../app/stylesheets/admin.sass */
+/* line 186, ../../app/stylesheets/admin.sass */
 #nested_attributes_container #edit_image_subtitle {
   display: none;
   margin-bottom: 10px;
 }
 
-/* line 188, ../../app/stylesheets/admin.sass */
+/* line 189, ../../app/stylesheets/admin.sass */
 .fields {
   margin-bottom: 5px;
   width: 600px;
 }
 
-/* line 191, ../../app/stylesheets/admin.sass */
+/* line 192, ../../app/stylesheets/admin.sass */
 .thumb {
   position: relative;
   float: left;
   margin: 0 8px 8px 0;
 }
-/* line 195, ../../app/stylesheets/admin.sass */
+/* line 196, ../../app/stylesheets/admin.sass */
 .thumb a img {
   opacity: 0.8;
 }
-/* line 197, ../../app/stylesheets/admin.sass */
+/* line 198, ../../app/stylesheets/admin.sass */
 .thumb a.edit_subtitle {
   display: none;
   position: absolute;
   top: -6px;
   right: 12px;
 }
-/* line 202, ../../app/stylesheets/admin.sass */
+/* line 203, ../../app/stylesheets/admin.sass */
 .thumb a.cross {
   display: none;
   position: absolute;
@@ -389,17 +390,17 @@ td {
   right: -6px;
 }
 
-/* line 207, ../../app/stylesheets/admin.sass */
+/* line 208, ../../app/stylesheets/admin.sass */
 .add_nested_fields {
   clear: left;
 }
 
-/* line 209, ../../app/stylesheets/admin.sass */
+/* line 210, ../../app/stylesheets/admin.sass */
 #form .button {
   margin-top: 10px;
 }
 
-/* line 212, ../../app/stylesheets/admin.sass */
+/* line 213, ../../app/stylesheets/admin.sass */
 label {
   float: left;
   margin: 8px 20px 0px 0px;
@@ -407,30 +408,30 @@ label {
   font-size: 15px;
 }
 
-/* line 218, ../../app/stylesheets/admin.sass */
+/* line 219, ../../app/stylesheets/admin.sass */
 .label_gallery_name {
   font-size: 1.2em;
   font-weight: bold;
 }
 
-/* line 222, ../../app/stylesheets/admin.sass */
+/* line 223, ../../app/stylesheets/admin.sass */
 .remove_nested_fields {
   float: right;
   margin-top: 8px;
 }
 
-/* line 226, ../../app/stylesheets/admin.sass */
+/* line 227, ../../app/stylesheets/admin.sass */
 .text_field, textarea, .file_field, select {
   color: #333333;
   font-size: 16px;
 }
 
-/* line 230, ../../app/stylesheets/admin.sass */
+/* line 231, ../../app/stylesheets/admin.sass */
 .text_field, textarea, .file_field {
   width: 400px;
 }
 
-/* line 233, ../../app/stylesheets/admin.sass */
+/* line 234, ../../app/stylesheets/admin.sass */
 .text_field, textarea, select {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -444,7 +445,7 @@ label {
   background: url('/images/admin/field-background.png?1316560596') repeat-x #f8f8f8;
 }
 
-/* line 240, ../../app/stylesheets/admin.sass */
+/* line 241, ../../app/stylesheets/admin.sass */
 textarea {
   font-family: arial, helvetica, sans-serif;
   width: 590px;
@@ -452,13 +453,13 @@ textarea {
   font-size: 13px;
 }
 
-/* line 246, ../../app/stylesheets/admin.sass */
+/* line 247, ../../app/stylesheets/admin.sass */
 .file_field {
   margin: 5px 0px;
   background-color: #f8f8f8;
 }
 
-/* line 250, ../../app/stylesheets/admin.sass */
+/* line 251, ../../app/stylesheets/admin.sass */
 .button {
   overflow: hidden;
   *zoom: 1;
@@ -477,11 +478,11 @@ textarea {
   font-size: 13px;
   cursor: pointer;
 }
-/* line 263, ../../app/stylesheets/admin.sass */
+/* line 264, ../../app/stylesheets/admin.sass */
 .button:hover {
   background-position: 0 -32px;
 }
-/* line 265, ../../app/stylesheets/admin.sass */
+/* line 266, ../../app/stylesheets/admin.sass */
 .button:active {
   background-position: 0 -64px;
 }

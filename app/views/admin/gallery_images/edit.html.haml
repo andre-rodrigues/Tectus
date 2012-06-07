@@ -1,0 +1,30 @@
+= link_to '<< Voltar', admin_galleries_path, :id => "top_link", :class => "link"
+
+#form
+  = nested_form_for [:admin, @attachment], :html => { :multipart => true } do |form|
+    - if @attachment.errors.any?
+      #error_explanation
+        %h2= "Est" + (t('activerecord.attributes.gallery.gender') == 'o' ? 'e ' : 'a ') + t('activerecord.models.gallery').downcase + " não pôde ser salv#{t('activerecord.attributes.gallery.gender')}."
+        %p Corrija os os seguintes erros:
+        %ul
+          - @attachment.errors.full_messages.each do |msg|
+            %li= msg
+    %table
+      %tr
+        %td
+          = form.label :attachment, "Arquivo: "
+        %td
+          = form.file_field :attachment, :class => 'file_field'
+      %tr
+        %td
+          = form.label :attachment_title, "Título: "
+        %td
+          = form.text_field :attachment_title, :class => 'text_field'
+      %tr
+        %td
+          = form.label :description, "Texto descritivo: "
+        %td
+          = form.text_area :description, :class => 'text_area'
+      %tr
+        %td= form.submit controller.action_name == 'new' ? 'Inserir' : 'Atualizar', :class => 'button'
+

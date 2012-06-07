@@ -13,7 +13,7 @@ Tectus::Application.routes.draw do
   namespace :admin do
     root :to => "galleries#index"
     resources :galleries do
-      resources :gallery_images, :as => :images, :path => 'images', :only => :destroy
+      resources :gallery_images, :as => :images, :path => 'images', :only => [:destroy, :edit]
     end
     # Admin Scaffold's references for routes. Do not erase.
   end
