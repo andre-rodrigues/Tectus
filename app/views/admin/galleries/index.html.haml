@@ -1,5 +1,4 @@
 #list
-  = link_to "Inserir Nov#{t('activerecord.attributes.gallery.gender')} #{t('activerecord.models.gallery')}", new_admin_gallery_path, :class => 'button'
   - unless @galleries.empty?
     %ul.items.sortable
       - @galleries.each do |gallery|
