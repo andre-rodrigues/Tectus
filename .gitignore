@@ -5,3 +5,4 @@ tmp/
 config/database.yml
 config/credentials.yml
 public/images
+public/system/attachments/

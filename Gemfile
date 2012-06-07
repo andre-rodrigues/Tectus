@@ -12,6 +12,7 @@ gem 'will_paginate'
 gem 'aws-s3'
 gem 'paperclip'
 gem 'inherited_resources'
+gem 'heroku'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
