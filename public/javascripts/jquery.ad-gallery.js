@@ -348,6 +348,7 @@
             }
             clearInterval(inter);
           };
+          context.nav.find('.ad-thumb-list').css('width', '100%');
         },
         100
       );
