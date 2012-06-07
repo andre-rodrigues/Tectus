@@ -19,6 +19,8 @@ gem 'heroku'
 
 gem 'mysql2', '~> 0.2.6'
 
+gem "pg"
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
