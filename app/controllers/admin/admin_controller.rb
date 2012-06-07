@@ -7,10 +7,8 @@ class Admin::AdminController < ActionController::Base
 
   protected
     def authenticate
-      admin = YAML.load_file("#{Rails.root}/config/credentials.yml")['admin']
-
       authenticate_or_request_with_http_basic do |username, password|
-        username == admin['user'] && password == admin['password']
+        username == ENV['ADMIN_USER'] && password == ENV['ADMIN_PASS']
       end
     end
 end
