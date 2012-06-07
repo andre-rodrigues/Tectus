@@ -252,23 +252,56 @@ footer, header, hgroup, menu, nav, section {
   background-image: url(/images/contato_over.png);
 }
 
-/* line 12, ../../app/stylesheets/application.sass */
+/* line 1, ../../app/stylesheets/_office.sass */
+#text_content {
+  width: 325px;
+  height: 285px;
+  float: left;
+  text-align: justify;
+  margin-top: 100px;
+  font-family: "humnst777-cn-bt";
+  font-size: 10pt;
+  line-height: 1.1em;
+  color: #8796b5;
+}
+/* line 11, ../../app/stylesheets/_office.sass */
+#text_content .list-group {
+  margin: 25px 0px 15px 0px;
+}
+/* line 13, ../../app/stylesheets/_office.sass */
+#text_content li {
+  list-style: disc;
+  margin: 3px 0px 0px 15px;
+}
+
+/* line 16, ../../app/stylesheets/_office.sass */
+#image {
+  float: right;
+  padding: 80px 0px 80px 80px;
+}
+
+@font-face {
+  font-family: "humnst777-cn-bt";
+  src: url("/humnst777-cn-bt.ttf");
+}
+
+/* line 17, ../../app/stylesheets/application.sass */
 body {
   text-align: center;
   background-color: #172140;
 }
-/* line 15, ../../app/stylesheets/application.sass */
+/* line 20, ../../app/stylesheets/application.sass */
 body #header {
   width: 840px;
   height: 90px;
   margin: auto;
 }
-/* line 19, ../../app/stylesheets/application.sass */
+/* line 24, ../../app/stylesheets/application.sass */
 body #header #logo {
   float: left;
   margin-top: 25px;
 }
-/* line 22, ../../app/stylesheets/application.sass */
+/* line 27, ../../app/stylesheets/application.sass */
 body #content {
   margin: auto;
   width: 840px;
@@ -276,29 +309,29 @@ body #content {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 27, ../../app/stylesheets/application.sass */
+/* line 32, ../../app/stylesheets/application.sass */
 body #footer {
   width: 840px;
   height: 90px;
   margin: auto;
-  font-family: Arial;
+  font-family: "humnst777-cn-bt";
 }
-/* line 32, ../../app/stylesheets/application.sass */
+/* line 37, ../../app/stylesheets/application.sass */
 body #footer a {
   color: #8796b5;
   text-decoration: none;
 }
-/* line 35, ../../app/stylesheets/application.sass */
+/* line 40, ../../app/stylesheets/application.sass */
 body #footer a:hover {
   color: white;
 }
-/* line 37, ../../app/stylesheets/application.sass */
+/* line 42, ../../app/stylesheets/application.sass */
 body #footer #contact {
   float: right;
   font-size: 11pt;
   margin-top: 40px;
 }
-/* line 41, ../../app/stylesheets/application.sass */
+/* line 46, ../../app/stylesheets/application.sass */
 body #footer #fatorp {
   float: left;
   font-size: 9pt;
