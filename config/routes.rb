@@ -2,9 +2,10 @@ Tectus::Application.routes.draw do
 
   root :to => "projects#index"
   
-  match "projetos" => "projects#index", :as => "projects"
-  match "obras" => "buildings#index", :as => "buildings"
-  match "estudos" => "researches#index", :as => "researches"
+  match "projetos"    => "projects#index",    :as => "projects"
+  match "obras"       => "buildings#index",   :as => "buildings"
+  match "estudos"     => "researches#index",  :as => "researches"
+  match "escritorio"  => "office#index",      :as => "office"
   
   
   

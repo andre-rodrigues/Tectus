@@ -71,7 +71,7 @@
     #logo
       = link_to image_tag("logotipo.png"), root_path
     #menu
-      = link_to "", "#", :id => controller.controller_name == "office" ? "office_current" : "office"
+      = link_to "", office_path, :id => controller.controller_name == "office" ? "office_current" : "office"
       = link_to "", projects_path, :id => controller.controller_name == "projects" ? "projects_current" : "projects"
       = link_to "", buildings_path, :id => controller.controller_name == "buildings" ? "buildings_current" : "buildings"
       = link_to "", researches_path, :id => controller.controller_name == "researches" ? "researches_current" : "researches"
