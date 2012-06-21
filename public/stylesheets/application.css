@@ -141,7 +141,7 @@ footer, header, hgroup, menu, nav, section {
   float: right;
   width: 79px;
   height: 14px;
-  margin-top: 20px;
+  margin-top: 5px;
   border: none;
   background-color: #172140;
   background-image: url("/images/enviar.png");
@@ -282,7 +282,7 @@ footer, header, hgroup, menu, nav, section {
 
 @font-face {
   font-family: "humnst777-cn-bt";
-  src: url("/humnst777-cn-bt.ttf");
+  src: url("/humnst777-cn-bt.ttf"), url("/humnst777-cn-bt.woff");
 }
 
 /* line 17, ../../app/stylesheets/application.sass */
@@ -305,33 +305,34 @@ body #header #logo {
 body #content {
   margin: auto;
   width: 840px;
+  height: 450px;
   background-color: #172140;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 32, ../../app/stylesheets/application.sass */
+/* line 33, ../../app/stylesheets/application.sass */
 body #footer {
   width: 840px;
-  height: 90px;
+  height: 70px;
   margin: auto;
   font-family: "humnst777-cn-bt";
 }
-/* line 37, ../../app/stylesheets/application.sass */
+/* line 38, ../../app/stylesheets/application.sass */
 body #footer a {
   color: #8796b5;
   text-decoration: none;
 }
-/* line 40, ../../app/stylesheets/application.sass */
+/* line 41, ../../app/stylesheets/application.sass */
 body #footer a:hover {
   color: white;
 }
-/* line 42, ../../app/stylesheets/application.sass */
+/* line 43, ../../app/stylesheets/application.sass */
 body #footer #contact {
   float: right;
   font-size: 11pt;
   margin-top: 40px;
 }
-/* line 46, ../../app/stylesheets/application.sass */
+/* line 47, ../../app/stylesheets/application.sass */
 body #footer #fatorp {
   float: left;
   font-size: 9pt;
