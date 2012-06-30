@@ -1,6 +1,6 @@
 Tectus::Application.routes.draw do
 
-  root :to => "projects#index"
+  root :to => "office#index"
   
   match "projetos"    => "projects#index",    :as => "projects"
   match "obras"       => "buildings#index",   :as => "buildings"

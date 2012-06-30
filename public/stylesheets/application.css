@@ -138,6 +138,7 @@ footer, header, hgroup, menu, nav, section {
 }
 /* line 53, ../../app/stylesheets/_contact.sass */
 #contact_page form .button {
+  cursor: pointer;
   float: right;
   width: 79px;
   height: 14px;
@@ -283,19 +284,23 @@ footer, header, hgroup, menu, nav, section {
 body {
   text-align: center;
   background-color: #172140;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -305px 0px 0px -420px;
 }
-/* line 16, ../../app/stylesheets/application.sass */
+/* line 20, ../../app/stylesheets/application.sass */
 body #header {
   width: 840px;
   height: 90px;
   margin: auto;
 }
-/* line 20, ../../app/stylesheets/application.sass */
+/* line 24, ../../app/stylesheets/application.sass */
 body #header #logo {
   float: left;
   margin-top: 25px;
 }
-/* line 23, ../../app/stylesheets/application.sass */
+/* line 27, ../../app/stylesheets/application.sass */
 body #content {
   margin: auto;
   width: 840px;
@@ -305,29 +310,29 @@ body #content {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 30, ../../app/stylesheets/application.sass */
+/* line 34, ../../app/stylesheets/application.sass */
 body #footer {
   width: 840px;
   height: 70px;
   margin: auto;
   font-family: "Arial";
 }
-/* line 35, ../../app/stylesheets/application.sass */
+/* line 39, ../../app/stylesheets/application.sass */
 body #footer a {
   color: #8796b5;
   text-decoration: none;
 }
-/* line 38, ../../app/stylesheets/application.sass */
+/* line 42, ../../app/stylesheets/application.sass */
 body #footer a:hover {
   color: white;
 }
-/* line 40, ../../app/stylesheets/application.sass */
+/* line 44, ../../app/stylesheets/application.sass */
 body #footer #contact {
   float: right;
   font-size: 11pt;
   margin-top: 40px;
 }
-/* line 44, ../../app/stylesheets/application.sass */
+/* line 48, ../../app/stylesheets/application.sass */
 body #footer #fatorp {
   float: left;
   font-size: 9pt;
