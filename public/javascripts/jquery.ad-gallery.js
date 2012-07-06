@@ -332,23 +332,8 @@
       // Wait until all thumbs are loaded, and then set the width of the ul
       var inter = setInterval(
         function() {
-          if(thumb_count == thumbs_loaded) {
-            thumb_wrapper_width -= 100;
-            var list = context.nav.find('.ad-thumb-list');
-            list.css('width', thumb_wrapper_width +'px');
-            var i = 1;
-            var last_height = list.height();
-            while(i < 201) {
-              list.css('width', (thumb_wrapper_width + i) +'px');
-              if(last_height != list.height()) {
-                break;
-              }
-              last_height = list.height();
-              i++;
-            }
-            clearInterval(inter);
-          };
-          context.nav.find('.ad-thumb-list').css('width', '100%');
+          var width = (parseInt($('ul.ad-thumb-list li').size()) * 109) + 4
+          context.nav.find('.ad-thumb-list').css('width', width+'px');
         },
         100
       );
